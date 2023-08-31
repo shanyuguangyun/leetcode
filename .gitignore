@@ -1,5 +1,7 @@
 ### IntelliJ IDEA ###
 out/
+.idea/
+leetcode.iml
 !**/src/main/**/out/
 !**/src/test/**/out/
 
@@ -27,4 +29,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-/.idea/
