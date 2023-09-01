@@ -34,13 +34,20 @@
 * 复杂链表的复制-M  
 > [力扣138](https://leetcode.cn/problems/copy-list-with-random-pointer/)  
 > 解法：哈希表  
-> 使用Hash表存新旧节点，然后根据纠结点调整新节点的指针
+> 使用Hash表存新旧节点，然后根据纠结点调整新节点的指针  
 > [代码跳转](./src/com/europa/leetcode/Code138.java)
 
 ### 1.4 树
 
 
 ## 2.自动机
+
+* 表示数值的字符串-H  
+> 解法：有限状态自动机  
+> 请实现一个函数用来判断字符串是否表示数值（包括整数和小数）  
+> 空格、数字0-9、正负号、小数点、幂符号e E  
+> [代码跳转](./src/com/europa/leetcode/Code1.java)
+
 
 ## 3.滑动窗口
 * 滑动窗口的最大值-H  
