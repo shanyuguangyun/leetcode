@@ -26,20 +26,22 @@ public class Code1 {
 
     public static void main(String[] args) {
         Code1 instance = new Code1();
-
+        boolean number = instance.isNumber("-1E-16");
+        System.out.println(number);
     }
 
     public boolean isNumber(String s) {
         Map[] states = {
                 // 表示允许的状态及其下一个字符合法的话要跳到的状态下标 如' '就是状态0 表空格 其下一个字符必须跟空格、符号、数字、或者小数点才合法。
-                new HashMap<Character, Integer>() {{put(' ', 0);put('s', 1);put('d', 2);put('.', 3);}},
-                new HashMap<Character, Integer>() {{put('d', 2);put('.', 3);}},
-                new HashMap<Character, Integer>() {{put('d', 2);put('.', 3);put('e', 5);put(' ', 8);}},
-                new HashMap<Character, Integer>() {{put('d', 4);}},
-                new HashMap<Character, Integer>() {{put('d', 4);put('e', 5);put(' ', 8);}},
-                new HashMap<Character, Integer>() {{put('s', 6);put('d', 7);}},
-                new HashMap<Character, Integer>() {{put('d', 7);put(' ', 8);}},
-                new HashMap<Character, Integer>() {{put(' ', 8);}},
+                new HashMap<Character, Integer>() {{put(' ', 0);put('s', 1);put('d', 2);put('.', 7);}},
+                new HashMap<Character, Integer>() {{put('d', 2);put('.', 7);}},
+                new HashMap<Character, Integer>() {{put('d', 2);put('.', 3);put('e', 4);put(' ', 6);}},
+                new HashMap<Character, Integer>() {{put('d', 3);put('e', 4);put(' ', 6);}},
+                new HashMap<Character, Integer>() {{put('s', 8);put('d', 5);}},
+                new HashMap<Character, Integer>() {{put('d', 5);put(' ', 6);}},
+                new HashMap<Character, Integer>() {{put(' ', 6);}},
+                new HashMap<Character, Integer>() {{put('d', 3);}},
+                new HashMap<Character, Integer>() {{put('d', 5);}},
         };
 
         char[] arrays = s.toCharArray();
@@ -56,7 +58,7 @@ public class Code1 {
                 chr = arrays[i];
             }
             else if (arrays[i] == 'e' || arrays[i] == 'E') {
-                chr = arrays[i];
+                chr = 'e';
             } else {
                 chr = '?';
             }
@@ -66,6 +68,6 @@ public class Code1 {
             }
             cur = (int)states[cur].get(chr);
         }
-        return cur == 2 || cur == 3 || cur == 4 || cur == 7 || cur == 8;
+        return cur == 2 || cur == 3 || cur == 5 || cur == 6;
     }
 }

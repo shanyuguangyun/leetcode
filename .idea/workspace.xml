@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e280dbfb-0980-4f04-b9aa-c01224ccb647" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/com/europa/leetcode/Code1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/europa/leetcode/Code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/europa/leetcode/Code1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,20 @@
       <recent name="com.europa.leetcode.structs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code138">
+  <component name="RunManager" selected="Application.Code1">
+    <configuration name="Code1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.europa.leetcode.Code1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.europa.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.europa.leetcode.Code138" />
       <module name="leetcode" />
@@ -87,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code155" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.europa.leetcode.Code155" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.europa.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Code59" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.europa.leetcode.Code59" />
       <module name="leetcode" />
@@ -113,24 +112,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code1" />
         <item itemvalue="Application.Code138" />
         <item itemvalue="Application.Code59" />
         <item itemvalue="Application.Code154_1" />
         <item itemvalue="Application.Code154" />
-        <item itemvalue="Application.Code155" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +143,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693403312853</updated>
-      <workItem from="1693535171260" duration="14902000" />
+      <workItem from="1693535171260" duration="15030000" />
+      <workItem from="1693875103929" duration="4234000" />
     </task>
     <servers />
   </component>
@@ -159,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -185,6 +188,11 @@
           <url>file://$PROJECT_DIR$/src/com/europa/leetcode/Code59.java</url>
           <line>90</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/europa/leetcode/Code1.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
