@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../svn/xfPlatform" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -112,19 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Code1" />
@@ -144,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693403312853</updated>
       <workItem from="1693535171260" duration="15030000" />
-      <workItem from="1693875103929" duration="4234000" />
+      <workItem from="1693875103929" duration="4854000" />
+      <workItem from="1693895110341" duration="2576000" />
     </task>
     <servers />
   </component>
@@ -191,7 +179,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/europa/leetcode/Code1.java</url>
-          <line>49</line>
+          <line>61</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
